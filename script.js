@@ -47,4 +47,5 @@ if (day >= 1 && day <= 10) {
 
 let abc = Number(prompt('Введите целое положительное число'));
 alert(`В числе ${abc} количество сотен: ${parseInt(abc / 100)}, десятков: ${parseInt(parseInt(abc / 10) % 10)}, единиц: ${parseInt(abc % 10)}`);
+
 console.log(`В числе ${abc} количество сотен: ${parseInt(abc / 100)}, десятков: ${parseInt(parseInt(abc / 10) % 10)}, единиц: ${parseInt(abc % 10)}`)
